@@ -2,4 +2,4 @@
 
 ##### [Learn-8：JavaScript -> 信息列表制作](http://www.imooc.com/learn/8)
 
-##### [Learn-17：JavaScript -> 信息滚动效果制作](http://www.imooc.com/learn/17)
+##### [Learn-758：PHP -> PHP中的HTTP协议](http://www.imooc.com/learn/758)
