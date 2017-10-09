@@ -1,0 +1,44 @@
+*{margin: 0px; padding: 0px;}
+
+.list{
+	width: 300px;
+	height: auto;
+	border: 1px solid #ccc;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h3{
+	height: 24px;
+	background: #ccc;
+	line-height: 24px;
+	font-size: 14px;
+	padding-left: 10px;
+}
+
+ul li{
+	list-style: none;
+	border-bottom: 1px dotted #ccc;
+	height: auto;
+	line-height: 24px;
+	color: #333;
+	font-size: 12px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+ul li span{
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	background-color: orange;
+	font-weight: bold;
+	color: #000;
+}
+
+ul li dl{
+	padding-left: 20px;
+	display: none;
+}
