@@ -1,0 +1,11 @@
+{
+    "require": {
+         "bupt1987/html-parser": "dev-master"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
+    }
+}
