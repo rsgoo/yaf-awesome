@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<title>Bootstrap 图标菜单和按钮组件</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+  	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style media="screen">
+		.a{
+			height: 50px;
+			width: 200px;
+			border: 1px solid red;
+			background-color: #eee;
+		}
+	</style>
+
+</head>
+<body>
+	<span class="glyphicon glyphicon-star"></span>
+	<button type="button" class="btn btn-default ">
+		图标<i class="glyphicon glyphicon-star"></i>
+	</button>
+
+	<hr>
+
+	<div class="dropdown">
+		<button type="button" class='btn btn-default' data-toggle='dropdown'>
+			下拉菜单
+			<span class='caret'></span>
+		</button>
+		<ul class="dropdown-menu">
+			<li><a href="#">111</a></li>
+			<li><a href="#">222</a></li>
+			<li><a href="#">333</a></li>
+			<li><a href="#">444</a></li>
+		</ul>
+	</div>
+
+	<hr>
+
+	<div class="dropup">
+		<button type="button" class='btn btn-default' data-toggle='dropdown'>
+			上拉菜单
+			<span class='caret'></span>
+		</button>
+		<ul class="dropdown-menu">
+			<li><a href="#">111</a></li>
+			<li><a href="#">222</a></li>
+			<li><a href="#">333</a></li>
+			<li><a href="#">444</a></li>
+		</ul>
+	</div>
+
+
+	<hr>
+
+	<div class="dropdown">
+		<button type="button" class='btn btn-default' data-toggle='dropdown'>
+			下拉菜单靠右显示
+			<span class='caret'></span>
+		</button>
+		<ul class="dropdown-menu dropdown-menu-right">
+			<li class="dropdown-header">内容导航</li>
+			<li><a href="#">111</a></li>
+			<li><a href="#">222</a></li>
+			<li><a href="#">333</a></li>
+			<li><a href="#">444</a></li>
+		</ul>
+	</div>
+
+	<hr>
+
+	<div class="dropdown">
+		<button type="button" class='btn btn-default' data-toggle='dropdown'>
+			下拉菜单-dropdownheader
+			<span class='caret'></span>
+		</button>
+		<ul class="dropdown-menu">
+			<li class="dropdown-header">内容导航</li>
+			<li><a href="#">111</a></li>
+			<li><a href="#">222</a></li>
+			<li><a href="#">333</a></li>
+			<li><a href="#">444</a></li>
+			<li class="divider"></li>
+			<li><a href="#">555</a></li>
+			<li><a href="#">666</a></li>
+
+		</ul>
+	</div>
+
+	<h1>按钮组件</h1>
+	<div class="btn-toolbar">
+		<div class="btn-group btn-group-lg">
+			<button type="button" class='btn btn-default'>1</button>
+			<button type="button" class='btn btn-default'>2</button>
+			<button type="button" class='btn btn-default'>3</button>
+		</div>
+
+		<div class="btn-group">
+			<button type="button" class='btn btn-default'>A</button>
+			<button type="button" class='btn btn-default'>B</button>
+			<button type="button" class='btn btn-default'>C</button>
+			<div class="btn-group">
+				<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+					下来菜单
+					<span class="caret"></span>
+				</button>
+				<ul class="dropdown-menu">
+					<li class="dropdown-header">内容导航</li>
+					<li><a href="#">111</a></li>
+					<li><a href="#">222</a></li>
+					<li><a href="#">333</a></li>
+					<li><a href="#">444</a></li>
+					<li class="divider"></li>
+					<li><a href="#">555</a></li>
+					<li><a href="#">666</a></li>
+
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<hr>
+	<p>垂直排列</p>
+	<div class="btn-group-vertical">
+		<button type="button" class='btn btn-default'>1</button>
+		<button type="button" class='btn btn-default'>2</button>
+		<button type="button" class='btn btn-default'>3</button>
+	</div>
+
+	<p>等分按钮</p>
+	<div class="btn-group-justified">
+		<a type="button" class='btn btn-default'>1</a>
+		<a type="button" class='btn btn-default'>2</a>
+		<a type="button" class='btn btn-default'>3</a>
+	</div>
+
+
+</body>
+</html>
