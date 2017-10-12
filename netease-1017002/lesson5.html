@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<title>Bootstrap 栅格系统</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+  	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<style media="screen">
+		.a{
+			height: 50px;
+			border: 1px solid red;
+			background-color: #eee;
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="row" style="background-color:orange;">
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">1</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">2</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">3</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">4</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">5</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">6</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">7</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">8</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">9</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">10</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">11</div>
+			<div class="col-lg-3 col-md-4 col-sm-6 col-xs-6 a">12</div>
+		</div>
+	</div>
+
+	<hr>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9 a">999</div>
+			<div class="col-md-3 a">333</div>
+		</div>
+	</div>
+
+	<hr/>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-9 col-md-push-3 a">999 col-md-push-3 向右边推3个单位</div>
+			<div class="col-md-3 col-md-pull-9 a">333 col-md-pull-9 向左边拉9个单位</div>
+		</div>
+	</div>
+
+</body>
+</html>
