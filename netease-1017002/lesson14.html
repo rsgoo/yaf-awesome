@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<title>Bootstrap 下拉菜单和滚动监听插件</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+  	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div class="dropdown">
+        <button type="button" class="btn btn-primary" data-toggle='dropdown'>下拉菜单<span class="caret"></span></button>
+        <ul class="dropdown-menu" >
+            <li><a href="#">首页</a></li>
+            <li><a href="#">咨询</a></li>
+            <li><a href="#">产品</a></li>
+            <li><a href="#">关于</a></li>
+        </ul>
+    </div>
+
+    <hr>
+
+    <nav class="navbar navbar-default">
+        <a href="#" class="navbar-brand">bootstrap</a>
+        <ul class="nav navbar-nav">
+            <li><a href="#html5">HTML5</a></li>
+            <li><a href="#bootstrap">Bootstrap</a></li>
+            <li class="dropdown">
+                <a href="#" data-toggle="dropdown">JavaScript<span class="caret"></span></a>
+                <ul class="dropdown-menu" >
+                    <li><a href="#jquery">Jquery</a></li>
+                    <li><a href="#vue">Vue</a></li>
+                </ul>
+            </li>
+        </ul>
+    </nav>
+
+    <hr>
+
+    <div data-spy='scroll' style="padding:0px 10px; height:200px; overflow:auto; position:relative">
+
+        <h4 id="html5">HTML5</h4>
+        <p>HTML5 是 W3C 与 WHATWG 合作的结果,WHATWG 指 Web Hypertext Application Technology Working Group。WHATWG 致力HTML5 是 W3C 与 WHATWG 合作的结果,WHATWG 指 Web Hypertext Application Technology Working Group。WHATWG 致力HTML5 是 W3C 与 WHATWG 合作的结果,WHATWG 指 Web Hypertext Application Technology Working Group。WHATWG 致力于 web 表单和应用程序，而 W3C 专注于 XHTML 2.0。在 2006 年，双方决定进行合作，来创建一个新版本的 HTML。</p>
+
+        <h4 id="bootstrap">Bootstrap</h4>
+        <p>Bootstrap，来自 Twitter，是目前最受欢HTML5 是 W3C 与 WHATWG 合作的结果,WHATWG 指 Web Hypertext Application Technology Working Group。WHATWG 致力HTML5 是 W3C 与 WHATWG 合作的结果,WHATWG 指 Web Hypertext Application Technology Working Group。WHATWG 致力迎的前端框架。Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的，它简洁灵活，使得 Web 开发更加快捷。</p>
+
+        <h4 id="javascript">JavaScript</h4>
+        <p>JavaScript 是 Web 的编程语言。所有现代的 HTML 页面都使用 JavaScript。JavaScript 非常容易学。本教程将教你学习从初级到高级JavaScrHTML5 是 W3C 与 WHATWG 合作的结果,WHATWG 指 Web Hypertext Application Technology Working Group。WHATWG 致力HTML5 是 W3C 与 WHATWG 合作的结果,WHATWG 指 Web Hypertext Application Technology Working Group。WHATWG 致力ipt知识。</p>
+
+        <h4 id="jquery">jQuery</h4>
+        <p>jQuery 是一个 JavHTML5 是 W3C 与 WHATWG 合作的结果,WHATWG 指 Web Hypertext Application Technology Working Group。WHATWG 致力HTML5 是 W3C 与 WHATWG 合作的结果,WHATWG 指 Web Hypertext Application Technology Working Group。WHATWG 致力aScript 库。jQuery 极大地简化了 JavaScript 编程。jQuery 很容易学习。</p>
+
+        <h4 id="vue">Vue.js</h4>
+        <p>Vue.js（读音 /vjuː/, 类似于 view） 是一套构建用户界面的渐进式框架。Vue 只关注视图层， 采用自底向上增量开发的HTML5 是 W3C 与 WHATWG 合作的结果,WHATWG 指 Web Hypertext Application Technology Working Group。WHATWG 致力HTML5 是 W3C 与 WHATWG 合作的结果,WHATWG 指 Web Hypertext Application Technology Working Group。WHATWG 致力HTML5 是 W3C 与 WHATWG 合作的结果,WHATWG 指 Web Hypertext Application Technology Working Group。WHATWG 致力设计。</p>
+
+    </div>
+
+
+</body>
+</html>
