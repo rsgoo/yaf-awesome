@@ -8,8 +8,51 @@
   	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
   	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
-<body style="margin:100px;">
-    <button class="btn btn-primary">bootstrap</button>
+<body style="margin:10px;">
+    <button class="btn btn-primary" data-toggle="collapse" data-target="#content">bootstrap</button>
+    <div class="collapse" id="content">
+        <div class="well">
+            Bootstrap，来自 Twitter，是目前最受欢迎的前端框架。Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的，它简洁灵活，使得 Web 开发更加快捷。
+        </div>
+    </div>
+
+    <hr>
+
+    <div class="panel-group" id="accordion">
+
+    	<div class="panel panel-default">
+    		<div class="panel-heading">
+    			<h4 class="panel-title">
+    				<a data-toggle="collapse" data-parent="#accordion"
+    				   href="#collapseOne">
+    					Bootstrap 折叠（Collapse）插件
+    				</a>
+    			</h4>
+    		</div>
+    		<div id="collapseOne" class="panel-collapse collapse in">
+    			<div class="panel-body">
+    				如果您想要单独引用该插件的功能，那么您需要引用 collapse.js。同时，也需要在您的 Bootstrap 版本中引用 Transition（过渡）插件。或者，正如 Bootstrap 插件概览 一章中所提到，您可以引用 bootstrap.js 或压缩版的 bootstrap.min.js。
+    			</div>
+    		</div>
+    	</div>
+
+        <div class="panel panel-default">
+    		<div class="panel-heading">
+    			<h4 class="panel-title">
+    				<a data-toggle="collapse" data-parent="#accordion"
+    				   href="#collapseTwo">
+    					Bootstrap 折叠（Collapse）插件2222
+    				</a>
+    			</h4>
+    		</div>
+    		<div id="collapseTwo" class="panel-collapse collapse">
+    			<div class="panel-body">
+    				222如果您想要单独引用该插件的功能，那么您需要引用 collapse.js。同时，也需要在您的 Bootstrap 版本中引用 Transition（过渡）插件。或者，正如 Bootstrap 插件概览 一章中所提到，您可以引用 bootstrap.js 或压缩版的 bootstrap.min.js。
+    			</div>
+    		</div>
+    	</div>
+
+    </div>
 
 </body>
 </html>
