@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<title>Bootstrap  弹出框和警告框插件</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+  	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body style="margin:100px;">
+
+    <div class="alert alert-warning fade in">
+        <button class="close" data-dismiss="alert"><span>&times;</span></button>
+        <p>警告框:您的浏览器不支持</p>
+    </div>
+
+    <button class="btn btn-danger btn-lg" data-toggle="popover" title="bootstrap" data-trigger="hover focus" data-placement="bottom" data-content="ootstrap，来自 Twitter，是目前最受欢迎的前端框架。Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的，它简洁灵活，使得 Web 开发更加快捷。">点击</button>
+    <script type="text/javascript">
+        $("button").popover();
+    </script>
+</body>
+</html>
