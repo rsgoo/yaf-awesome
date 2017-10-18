@@ -56,21 +56,88 @@
             </div>
         </div>
 
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-	    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left"></span>
+        </a>
+	    <a class="carousel-control right" href="#myCarousel" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
     </div>
+
+    <div class="tab1">
+        <div class="container">
+            <h2 class="tab-h2">「为什么选择瓢城企业培训」</h2>
+            <p class="tab-p">强大的师资力量，完美的实战型管理课程，让您的企业实现质的腾飞！</p>
+
+            <div class="row">
+
+                <div class="col-md-6 col">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#"><img src="img/icon-1.png" alt=""></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">HTML5 简介</h4>
+                            <p class="text-muted-own">HTML5是 HTML 最新修订版本，2014年10月由万维网联盟（W3C）完成标准制定。HTML5 的设计目的是为了在移动设备上支持多媒体。HTML5 简单易学。。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#"><img src="img/icon-2.png" alt=""></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Bootstrap 教程</h4>
+                            <p class="text-muted-own">Bootstrap，来自 Twitter，是目前最受欢迎的前端框架。Bootstrap 是基于 HTML、CSS、JAVASCRIPT 的，它简洁灵活，使得 Web 开发更加快捷。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#"><img src="img/icon-3.png" alt=""></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">Foundation5 教程</h4>
+                            <p class="text-muted-own">Foundation 用于开发响应式的 HTML, CSS and JavaScript 框架，是一个易用、强大而且灵活的框架，用于构建基于任何设备上的 Web 应用，一个以移动优先的流行框架。</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col">
+                    <div class="media">
+                        <div class="media-left">
+                            <a href="#"><img src="img/icon-4.png" alt=""></a>
+                        </div>
+                        <div class="media-body">
+                            <h4 class="media-heading">React 教程</h4>
+                            <p class="text-muted-own">React 是一个起源于 Facebook 的内部项目，用来架设 Instagram 站点，并于 2013 年 5 月开源。React 拥有较高的性能，代码逻辑非常简单，越来越多的人已开始关注和使用它。</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+
+
     <script type="text/javascript">
         //图片每个5秒切换
         $('.carousel').carousel({
             interval : 5000
         });
         //设置箭头的垂直居中
-        $('.carousel-control').css('line-height', $('.carousel-inner img').height()+'px');
-        $(window).resize(function(){
-            var $height = $('.carousel-inner img').eq(0).height() ||
-                          $('.carousel-inner img').eq(1).height() ||
-                          $('.carousel-inner img').eq(2).height();
-            $('.carousel-control').css('line-height', $height + 'px');
+        // $('.carousel-control').css('line-height', $('.carousel-inner img').height()+'px');
+        // $(window).resize(function(){
+        //     var $height = $('.carousel-inner img').eq(0).height() ||
+        //                   $('.carousel-inner img').eq(1).height() ||
+        //                   $('.carousel-inner img').eq(2).height();
+        //     $('.carousel-control').css('line-height', $height + 'px');
         });
     </script>
 </body>
