@@ -67,6 +67,12 @@ body
 	padding: 20px;
 }
 
+.media-icon
+{
+	width: 100px;
+	height: 100px;
+}
+
 /* 小屏幕（平板，大于等于 768px） */
 @media (min-width:768px) {
 	.tab-h2
