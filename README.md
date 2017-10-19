@@ -9,3 +9,5 @@
 ##### [网易云课堂-1017002：Bootstrap -> Bootstrap 视频教程](http://study.163.com/course/courseMain.htm?courseId=1017002)
 
 ##### [麦子学院-588：Linux -> Linux操作系统基础（最新版）](http://www.maiziedu.com/course/588/)
+
+##### [编程书籍-PHPBook1：PHP -> 深入PHP：面向对象、模式与实践（第3版）](https://item.jd.com/10794350.html)
