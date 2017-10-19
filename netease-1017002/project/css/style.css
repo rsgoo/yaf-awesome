@@ -110,10 +110,56 @@ body
 
 #footer
 {
-	background-color: #eee;
+	background-color: #3c3c3c;
+	color: #eee;
 }
 
+.jumbotron
+{
+	margin: 50px 0 0 0;
+	padding: 60px 0;
+	background-image: url(../img/jumbotron.jpg);
+	color: #ccc;
+}
 
+.jumbotron h1 {
+	font-size: 26px;
+	padding: 0 0 0 20px;
+}
+.jumbotron h4 {
+	font-size: 16px;
+	padding: 0 0 0 20px;
+}
+
+#information
+{
+	background-color: #f1eee7;
+	padding: 40px 0;
+}
+
+.info-content
+{
+	background: #fff;
+	margin: 0px 0px 20px 0px;
+	box-shadow: 2px 2px 3px #ccc;
+}
+
+.info-content img
+{
+	margin: 12px 0;
+}
+
+.info-content h4
+{
+	color: #333;
+	padding: 10px 0 0 0;
+	font-size: 16px;
+}
+
+.info-content p
+{
+	line-height: 1.6;
+}
 
 /* 小屏幕（平板，大于等于 768px） */
 @media (min-width:768px) {
@@ -139,6 +185,20 @@ body
 	.tab2-img {
 		float: right;
 	}
+	.jumbotron h1
+	{
+		font-size: 30px;
+	}
+
+	.jumbotron h4
+	{
+		font-size: 16px;
+	}
+
+	.info-content h4
+	{
+		font-size: 16px;
+	}
 }
 
 /* 中等屏幕（桌面显示器，大于等于 992px） */
@@ -158,6 +218,20 @@ body
 	{
 		font-size: 16px;
 	}
+	.jumbotron h1
+	{
+		font-size: 32px;
+	}
+
+	.jumbotron h4
+	{
+		font-size: 17px;
+	}
+
+	.info-content h4
+	{
+		font-size: 18px;
+	}
 }
 
 /* 大屏幕（大桌面显示器，大于等于 1200px） */
@@ -176,6 +250,21 @@ body
 	.text p
 	{
 		font-size: 18px;
+	}
+
+	.jumbotron h1
+	{
+		font-size: 36px;
+	}
+
+	.jumbotron h4
+	{
+		font-size: 18px;
+	}
+
+	.info-content h4
+	{
+		font-size: 20px;
 	}
 
 
