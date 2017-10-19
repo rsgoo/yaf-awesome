@@ -64,6 +64,7 @@
         </a>
     </div>
 
+    <!-- 中间内容 -->
     <div class="tab1">
         <div class="container">
             <h2 class="tab-h2">「心愿 - 四个女生」</h2>
@@ -127,8 +128,40 @@
         </div>
     </div>
 
+    <div class="tab2">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 tab2-img">
+                    <img src="img/golang.png" alt="" class="auto img-responsive center-block">
+                </div>
+                <div class="text col-md-6 col-sm-6 tab2-text">
+                    <h3>Go 语言教程</h3>
+                    <p>Go 是一个开源的编程语言，它能让构造简单、可靠且高效的软件变得容易。</p>
+                </div>
+            </div>
+        </div>
+    </div>
 
-
+    <div class="tab3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6">
+                    <img src="http://www.runoob.com/wp-content/uploads/2015/06/go128.png" alt="" class="auto img-responsive center-block">
+                </div>
+                <div class="text col-md-6 col-sm-6">
+                    <h3>Docker 教程</h3>
+                    <p>Docker 是一个开源的应用容器引擎，基于 Go 语言 并遵从Apache2.0协议开源。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 底部布局 -->
+    <footer id="footer">
+        <div class="container">
+            <p class="text-center" style="margin-top:10px;">雨醉风尘</p>
+            <p class="text-center">雨,自空,醉风,归尘</p>
+        </div>
+    </footer>
 
     <script type="text/javascript">
         //图片每个5秒切换
@@ -142,7 +175,19 @@
         //                   $('.carousel-inner img').eq(1).height() ||
         //                   $('.carousel-inner img').eq(2).height();
         //     $('.carousel-control').css('line-height', $height + 'px');
-        });
+        // });
+        //第一个需要垂直居中的行
+
+	    $('.text').eq(0).css('margin-top', ($('.auto').eq(0).height() - $('.text').eq(0).height()) / 2 + 'px');
+    	$(window).resize(function() {
+    		$('.text').eq(0).css('margin-top', ($('.auto').eq(0).height() - $('.text').eq(0).height()) / 2 + 'px');
+    	});
+
+    	// //第二个需要垂直居中的行
+    	$(window).resize(function() {
+    		$('.text').eq(1).css('margin-top', ($('.auto').eq(1).height() - $('.text').eq(1).height()) / 2 + 'px');
+    	});
+
     </script>
 </body>
 </html>

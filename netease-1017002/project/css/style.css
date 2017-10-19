@@ -73,6 +73,48 @@ body
 	height: 100px;
 }
 
+.tab2
+{
+	background-color: #eee;
+	padding: 60px 20px;
+	text-align: center;
+}
+
+.tab3
+{
+	padding: 60px 0px;
+	text-align: center;
+}
+
+.text h3
+{
+	font-size: 20px;
+}
+
+.text p
+{
+	font-size: 14px;
+}
+
+.tab2 img
+{
+	/*width: 50%;
+	height: : 50%;*/
+}
+
+.tab3 img
+{
+	/*width: 65%;
+	height: : 65%;*/
+}
+
+#footer
+{
+	background-color: #eee;
+}
+
+
+
 /* 小屏幕（平板，大于等于 768px） */
 @media (min-width:768px) {
 	.tab-h2
@@ -81,6 +123,21 @@ body
 	}
 	.tab-p {
 		font-size: 16px;
+	}
+	.text h3
+	{
+		font-size: 22px;
+	}
+
+	.text p
+	{
+		font-size: 15px;
+	}
+	.tab2-text {
+		float: left;
+	}
+	.tab2-img {
+		float: right;
 	}
 }
 
@@ -93,6 +150,14 @@ body
 	.tab-p {
 		font-size: 17px;
 	}
+	.text h3
+	{
+		font-size: 24px;
+	}
+	.text p
+	{
+		font-size: 16px;
+	}
 }
 
 /* 大屏幕（大桌面显示器，大于等于 1200px） */
@@ -104,4 +169,14 @@ body
 	.tab-p {
 		font-size: 18px;
 	}
+	.text h3
+	{
+		font-size: 26px;
+	}
+	.text p
+	{
+		font-size: 18px;
+	}
+
+
 }
