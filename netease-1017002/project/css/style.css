@@ -108,6 +108,60 @@ body
 	height: : 65%;*/
 }
 
+.case
+{
+	padding: 40px 0;
+ 	background-color: #eee;
+	text-align: center;
+}
+
+.case h4
+{
+	color: #666;
+}
+
+.case p
+{
+	color: #666;
+	line-height: 1.6;
+}
+
+.thumbnail
+{
+	padding: 0px;
+}
+
+.about
+{
+	background-color: #eee;
+	padding: 40px 0;
+}
+
+.about a
+{
+	color: #0059b2;
+}
+
+.about #about
+{
+	background-color: #fff;
+	box-shadow: 2px 2px 3px #ccc;
+}
+
+#about h3
+{
+	color: #333;
+	font-size: 18px;
+	border-bottom: 1px solid #eee;
+	padding: 20px 0;
+}
+
+#about p
+{
+	line-height: 2;
+	font-size: 13px;
+}
+
 #footer
 {
 	background-color: #3c3c3c;
@@ -227,6 +281,16 @@ body
 	{
 		font-size: 16px;
 	}
+
+	#about h3
+	{
+		font-size: 19px;
+	}
+
+	#about p
+	{
+		font-size: 14px;
+	}
 }
 
 /* 中等屏幕（桌面显示器，大于等于 992px） */
@@ -259,6 +323,16 @@ body
 	.info-content h4
 	{
 		font-size: 18px;
+	}
+
+	#about h3
+	{
+		font-size: 20px;
+	}
+
+	#about p
+	{
+		font-size: 15px;
 	}
 }
 
@@ -295,5 +369,14 @@ body
 		font-size: 20px;
 	}
 
+	#about h3
+	{
+		font-size: 22px;
+	}
+
+	#about p
+	{
+		font-size: 16px;
+	}
 
 }
