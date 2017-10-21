@@ -6,7 +6,7 @@
 
 ##### [手册网-12180：JavaScript -> JavaScript实例大全](http://www.shouce.ren/api/view/a/12180)
 
-##### [网易云课堂-1017002：Bootstrap -> Bootstrap 视频教程](http://study.163.com/course/courseMain.htm?courseId=1017002)
+##### [网易云课堂-1017002：Bootstrap -> Bootstrap 视频教程（完结）](http://study.163.com/course/courseMain.htm?courseId=1017002)
 
 ##### [麦子学院-588：Linux -> Linux操作系统基础（最新版）](http://www.maiziedu.com/course/588/)
 
