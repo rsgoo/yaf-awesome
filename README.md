@@ -11,3 +11,5 @@
 ##### [麦子学院-588：Linux -> Linux操作系统基础（最新版）](http://www.maiziedu.com/course/588/)
 
 ##### [编程书籍-PHPBook1：PHP -> 深入PHP：面向对象、模式与实践（第3版）](https://item.jd.com/10794350.html)
+
+##### [bilibili-av14920200：PHP -> mysql入门很简单系列视频](https://www.bilibili.com/video/av14920200/?from=search&seid=9509975657558782878)
