@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>1-6 Jquery 手风琴</title>
+		<link rel="stylesheet" href="./css/code_6.css">
+		<script src='https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js'></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#List").mouseover(function(){
+					$("#dlId").css('display', 'block');
+				});
+				$("#List").mouseout(function(){
+					$("#dlId").css('display', 'none');
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div class="list">
+			<h3>阅读排行-JS手风琴优化</h3>
+			<ul>
+				<li id='List'>
+					<span>1</span>Go语言
+					<dl id='dlId'>
+						<dt>Go程序设计语言</dt>
+						<dd>作者：艾伦A. A. 多诺万</dd>
+						<dd>价格：￥62.40</dd>
+					</dl>
+				</li>
+
+			</ul>
+		</div>
+	</body>
+</html>
