@@ -1,4 +1,4 @@
-#### PHP整个框架结构以及课程大纲介绍
+#####  [原文：PHP整个框架结构以及课程大纲介绍](http://www.maiziedu.com/course/760-10995/)
 
 **1：PHP设计理念及特点**
 
@@ -26,6 +26,6 @@
 
 - Zend 引擎
 
-	- C 语言实现，Zend 引擎将 PHP 代码翻译（语法解析等过程）为可执行的 opcode，实现基本能的数据结构（`hashtable`，`oo`），内存分配及管理，提供相应的 API 方法供外部调用。 
+	- C 语言实现，Zend 引擎将 PHP 代码翻译（语法解析等过程）为可执行的 opcode，实现基本能的数据结构（`hashtable`，`oo`），内存分配及管理，提供相应的 API 方法供外部调用。
 
 	![PHP核心架构示意图](http://oxkadystp.bkt.clouddn.com/PHP%E6%A0%B8%E5%BF%83%E6%9E%B6%E6%9E%84.png)
