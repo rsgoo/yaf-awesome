@@ -1,15 +1,15 @@
 ### Web Develop Practice Demo **:)**
 
-##### [慕课网-8：JavaScript -> 信息列表制作](http://www.imooc.com/learn/8)
+- ##### [慕课网-8：JavaScript -> 信息列表制作](http://www.imooc.com/learn/8)
 
-##### [慕课网-758：PHP -> PHP中的HTTP协议](http://www.imooc.com/learn/758)
+- ##### [慕课网-758：PHP -> PHP中的HTTP协议](http://www.imooc.com/learn/758)
 
-##### [手册网-12180：JavaScript -> JavaScript实例大全](http://www.shouce.ren/api/view/a/12180)
+- ##### [手册网-12180：JavaScript -> JavaScript实例大全](http://www.shouce.ren/api/view/a/12180)
 
-##### [网易云课堂-1017002：Bootstrap -> Bootstrap 视频教程（完结）](http://study.163.com/course/courseMain.htm?courseId=1017002)
+- ##### [网易云课堂-1017002：Bootstrap -> Bootstrap 视频教程（完结）](http://study.163.com/course/courseMain.htm?courseId=1017002)
 
-##### [麦子学院-588：Linux -> Linux操作系统基础（最新版）](http://www.maiziedu.com/course/588/)
+- ##### [麦子学院-588：Linux -> Linux操作系统基础（最新版）](http://www.maiziedu.com/course/588/)
 
-##### [编程书籍-PHPBook1：PHP -> 深入PHP：面向对象、模式与实践（第3版）](https://item.jd.com/10794350.html)
+- ##### [麦子学院-760：PHP -> PHP底层运行机制](http://www.maiziedu.com/course/760)
 
-##### [bilibili-av14920200：PHP -> mysql入门很简单系列视频](https://www.bilibili.com/video/av14920200/?from=search&seid=9509975657558782878)
+- ##### [编程书籍-PHPBook1：PHP -> 深入PHP：面向对象、模式与实践（第3版）](https://item.jd.com/10794350.html)
