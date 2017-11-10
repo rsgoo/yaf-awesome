@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<title>Bootstrap 项目实战</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="css/style.css">
+  	<script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
+  	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+</head>
+<body>
+    <!-- 导航条 -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <a href="#" class="navbar-brand" style="padding:0px;">
+                    <!-- <img style="height:50px;width:auto;" src="http://upload.jianshu.io/users/upload_avatars/147698/684fa374-e55c-4a0f-954c-ddcb577de38d.jpg" alt="雨醉风尘" class="img-responsive"> -->
+                    <img style="height:50px;width:auto;" src="http://demo.ycku.com/qixun/img/logo.png" alt="雨醉风尘" class="img-responsive">
+                </a>
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class=active><a href="#"><span class="glyphicon glyphicon-home"><span> 首页</a class="icon-bar"></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-list"><span> 咨询</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-fire"><span> 案例</a></li>
+                    <li><a href="#"><span class="glyphicon glyphicon-question-sign"><span> 关于</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- 轮播图 -->
+    <div id="myCarousel" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div  class="item active" style="background: Oldlace">
+                <img src="img/pic1.jpg" alt="">
+            </div>
+            <div  class="item" style="background: Oldlace">
+                <img src="img/pic2.jpg" alt="">
+            </div>
+            <div  class="item" style="background: Oldlace">
+                <img src="img/pic3.jpg" alt="">
+            </div>
+        </div>
+
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+	    <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+    </div>
+    <script type="text/javascript">
+        //图片每个5秒切换
+        $('.carousel').carousel({
+            interval : 5000
+        });
+        //设置箭头的垂直居中
+        $('.carousel-control').css('line-height', $('.carousel-inner img').height()+'px');
+        $(window).resize(function(){
+            var $height = $('.carousel-inner img').eq(0).height() ||
+                          $('.carousel-inner img').eq(1).height() ||
+                          $('.carousel-inner img').eq(2).height();
+            $('.carousel-control').css('line-height', $height + 'px');
+        });
+    </script>
+</body>
+</html>
