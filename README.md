@@ -4,6 +4,8 @@
 
 - ##### [慕课网-758：PHP -> PHP中的HTTP协议](http://www.imooc.com/learn/758)
 
+- ##### [慕课网-912：PHP -> Beanstalkd-带你玩转消息队列](http://www.imooc.com/learn/912)
+
 - ##### [手册网-12180：JavaScript -> JavaScript实例大全](http://www.shouce.ren/api/view/a/12180)
 
 - ##### [网易云课堂-1017002：Bootstrap -> Bootstrap 视频教程（完结）](http://study.163.com/course/courseMain.htm?courseId=1017002)
