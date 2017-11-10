@@ -14,4 +14,6 @@
 
 - ##### [麦子学院-760：PHP -> PHP底层运行机制](http://www.maiziedu.com/course/760)
 
+- ##### [麦子学院-650：PHP -> 大型网站项目优化](http://www.maiziedu.com/course/650)
+
 - ##### [编程书籍-PHPBook1：PHP -> 深入PHP：面向对象、模式与实践（第3版）](https://item.jd.com/10794350.html)
