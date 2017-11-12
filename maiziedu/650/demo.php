@@ -1,4 +1,9 @@
 <?php
-echo '<pre>';
-print_r(get_loaded_extensions());
+class Foo{
+?>
+<?php
+    function bar(){
+        print "bar";
+    }
+}
 ?>
