@@ -27,7 +27,7 @@
 		table: artist			 //使用的表名
 		type: ALL				 //ALL全表扫描，index索引
 		possible_keys: NULL		 //可能用到的key, 索引值
-		key: NULL
+		key: NULL                //实际用到的索引
 		key_len: NULL
 		ref: NULL
 		rows: 932
