@@ -1,35 +1,32 @@
 <?php
-$array  = [
-            0=>"z01",
-            1=>"Z32",
-            2=>"z17",
-            3=>"Z16",
-];
+header("Content-type:text/html;charset=utf-8");
+function bubble_sort($arr){
+           $leng=count($arr);
 
-function cmp($a, $b) {
-    $a = intval(substr($a, 1));
-    $b = intval(substr($b, 1));
-    if ($a == $b) {
-        return 0;
-    }
-    if ($a > $b) {
-        return 1;
-    } else {
-        return -1;
-    }
+           $temp="";
+
+           if($leng<=1){
+
+             return $arr;
+
+           }else{
+             for($i=0;$i<$leng-1;$i++){
+
+                 for($j=0;$j<$leng-1-$i;$j++){
+
+                     if($arr[$j]>$arr[$j+1]){
+
+                         $temp=$arr[$j+1];
+
+                         $arr[$j+1]=$arr[$j];
+
+                         $arr[$j]=$temp;
+                     }
+                 }
+             }
+           }
+           return $arr;
 }
-
-usort($array, 'cmp');
-
-echo '<pre>';
-print_r($array);
-//2017/11/1 00:00:00
-$cardinal = 1509465600;
-
-echo floor((time() - $cardinal)/3600);
-
-echo '<br/>';
-echo rand(1,10);
-
-
-?>
+$myarr=array(3,5,4,1,-90,23,9,11);
+print_r(bubble_sort($myarr));
+ ?>
