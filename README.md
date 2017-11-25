@@ -10,6 +10,8 @@
 
 - ##### [网易云课堂-1017002：Bootstrap -> Bootstrap 视频教程（完结）](http://study.163.com/course/courseMain.htm?courseId=1017002)
 
+- ##### [网易云课堂-1003907006：Python -> 2017最新版Python零基础入门](https://study.163.com/course/courseMain.htm?courseId=1003907006)
+
 - ##### [麦子学院-588：Linux -> Linux操作系统基础（最新版）](http://www.maiziedu.com/course/588/)
 
 - ##### [麦子学院-760：PHP -> PHP底层运行机制](http://www.maiziedu.com/course/760)
